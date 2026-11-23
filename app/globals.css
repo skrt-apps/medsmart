@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@layer base {
+  :root {
+    --font-display: var(--font-plus-jakarta), system-ui, sans-serif;
+    --font-sans: var(--font-dm-sans), system-ui, sans-serif;
+    --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, monospace;
+    --bg: #1C1B1F;
+    --surface: #2B2930;
+    --surface-variant: #49454E;
+    --on-surface: #E6E1E5;
+    --on-surface-variant: #CAC4D0;
+    --primary: #D0BCFF;
+    --on-primary: #381E72;
+    --outline: #938F99;
+  }
+
+  ::selection {
+    background: #D0BCFF;
+    color: #381E72;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--on-surface);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+  }
+
+  .font-mono, code, pre {
+    font-family: var(--font-mono);
+  }
+}

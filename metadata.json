@@ -1,0 +1,6 @@
+{
+  "name": "Personal Intel — Prescription Parser",
+  "description": "Prescription parser, medication tracker, refill schedule calculator, and reminder console migrated from skrt-queens/personal-intel-app.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
